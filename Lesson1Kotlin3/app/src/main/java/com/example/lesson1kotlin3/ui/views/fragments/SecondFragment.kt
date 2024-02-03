@@ -46,7 +46,11 @@ class SecondFragment : Fragment() {
     }
 
     private fun setupObserver() = with(binding) {
-        secondViewModel.userData.observe(viewLifecycleOwner) { it ->
+        secondViewModel.userData.observe(viewLifecycleOwner) { userData ->
+            text1.text = userData.userName
+            text2.text = userData.age
+            text3.text = userData.email
+            text4.text = userData.password
         }
         btnSekond.setOnClickListener {
             findNavController().navigate(R.id.action_secondFragment_to_thirdFragment)

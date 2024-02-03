@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.views.fragments.SekondFragment">
+    tools:context=".ui.views.fragments.SecondFragment">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -18,25 +18,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
+        <TextView
             android:id="@+id/text1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/text1" />
 
-        <EditText
+        <TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/text2" />
 
-        <EditText
+        <TextView
             android:id="@+id/text3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/text3" />
 
-        <EditText
+        <TextView
             android:id="@+id/text4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
